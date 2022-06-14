@@ -35,12 +35,12 @@ class DetailsActivity : AppCompatActivity() {
         val wpnImage = intent.getIntExtra(WPN_IMG, 0)
         val wpnSkill = intent.getStringExtra(WPN_SKILL)
 
-        var tvTitle: TextView = findViewById(R.id.tv_wpn_title)
-        var tvDescription: TextView = findViewById(R.id.tv_wpn_description)
-        var imgWpn: ImageView? = findViewById(R.id.img_wpn)
-        var tvStatAtk: TextView? = findViewById(R.id.tv_wpn_attr_atk)
-        var tvStatWeight: TextView? = findViewById(R.id.tv_wpn_attr_weight)
-        var tvStatSkill: TextView? = findViewById(R.id.tv_wpn_skill)
+        val tvTitle: TextView = findViewById(R.id.tv_wpn_title)
+        val tvDescription: TextView = findViewById(R.id.tv_wpn_description)
+        val imgWpn: ImageView? = findViewById(R.id.img_wpn)
+        val tvStatAtk: TextView? = findViewById(R.id.tv_wpn_attr_atk)
+        val tvStatWeight: TextView? = findViewById(R.id.tv_wpn_attr_weight)
+        val tvStatSkill: TextView? = findViewById(R.id.tv_wpn_skill)
 
         imgWpn?.let {
             Glide.with(this).load(wpnImage)
