@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Submission Android Sederhana</string>
+    <string name="wpn_title">Sample Weapon</string>
+    <string name="wpn_description">description of weapon provided</string>
+    <string name="wpn_stat_atk" translatable="false">156</string>
+    <string name="home_title">Greatsword Catalog</string>
+    <string name="wpn_description_title">Description:</string>
+    <string name="about">About</string>
+    <string name="base_atk">Base ATK:</string>
+    <string name="item_weight">Item Weight:</string>
+    <string name="skill">Skill:</string>
+    <string name="full_name_author">I Dewa Agung Adhinata Budhiastawa</string>
+    <string name="author_email">agungnata2003@gmail.com</string>
+    <string name="about_statement_1">images, descriptions, and attributes are sourced from elderring.fextralife.com</string>
+</resources>
