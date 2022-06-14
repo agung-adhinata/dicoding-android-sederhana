@@ -17,8 +17,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="vertical">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:layout_width="match_parent"
@@ -28,11 +28,11 @@
             android:src="@drawable/author" />
 
         <TextView
+            style="@style/TextAppearance.Material3.HeadlineMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/full_name_author"
             android:textAlignment="center"
-            style="@style/TextAppearance.Material3.HeadlineMedium"
             android:textStyle="bold" />
 
         <TextView
